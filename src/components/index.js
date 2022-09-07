@@ -4,6 +4,8 @@ export { default as ChannelDeatil } from './ChannelDeatil';
 export { default as SearchFeed } from './SearchFeed';
 export { default as VideoDetail } from './VideoDetail';
 export { default as SearchBar } from './SearchBar';
+export { default as Sidebar } from './Sidebar';
+
 
 
 
