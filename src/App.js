@@ -1,14 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Box } from '@mui/material'
-import VideoDetail from './components/VideoDetail';
-import ChannelDeatil from './components/ChannelDeatil';
-import Feed from './components/Feed';
-import SearchFeed from './components/SearchFeed';
+import { Box } from '@mui/material';
+
+import { Navbar, Feed, SearchFeed, VideoDetail, ChannelDeatil } from './components';
 
 const App = () => (
     <BrowserRouter>
         <Box sx={{ background: '#000' }}>
-            Navbar
+            <Navbar />
             <Routes>
                 <Route path='/' exact element={<Feed />} />
                 <Route path='/video/:id'  element={<VideoDetail />} />
